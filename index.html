@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>Wireframe MACH1</title>
+</head>
+<body>
+  <header class="header">
+    <a href="#" class="logo"></a>
+      <nav>
+        <ul>
+          <li><a href="#dica">Dica 1</a></li>
+          <li><a href="#dica2">Dica 2</a></li>
+          <li><a href="#cadastro">Cadastro</a></li>
+          <li><a href="#lista">Lista de Alunos</a></li>
+
+        </ul>
+      </nav>
+  </header>
+
+  <div class="container">
+    <h1 class="title">Este é um teste de programação Frontend</h1>
+    <p class="subtitle">
+      Vamos fazer um cadastro de alunos básicos e uma listagem.
+    </p>
+    <a href="#cadastro" class="btn">Cadastro Aluno</a>
+    <img src="#" alt="Header hero">
+  </div>
+
+  <section class="dica" id="dica">
+    <div>
+      <h1>Dica 1</h1>
+      <ul>
+        <li>
+          <img src="" alt="">
+          <h2>Os links no menu</h2>
+          <p>Cada link deve navegar para a área correspondente do site</p>
+        </li>
+        <li>
+          <img src="" alt="">
+          <h2>Os botões</h2>
+          <p>Devem navegar para a área de cadastro de aluno</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <section class="dica2">
+    <div>
+      <img src="" alt="dica 2">
+      <h1>Dica 2</h1>
+      <p>Cada aluno cadastrado deve aparecer na tabela abaixo do formulário,
+         além da inclusão, crie um método para remover o cadastro.</p>
+      <button class="btn">Cadastro aluno</button>
+    </div>
+  </section>
+  <section class="cadastro">
+    <form>
+      <input type="text" id="nome" placeholder="Digite o nome do aluno">
+      <label for="nome">Nome</label>
+
+      <input type="number" id="CPF" placeholder="Digite o nome do aluno">
+      <label for="CPF">CPF</label>
+
+      <input type="email" id="email" placeholder="Digite o email do aluno">
+      <label for="email">Email</label>
+
+      <input type="text" id="curso" placeholder="Curso do aluno">
+      <label for="curso">Curso</label>
+
+     <a href="#cadastro" class="btn">Cadastro Aluno</a>
+    </form>
+  </section>
+
+  <section class="lista">
+    <h1>Lista de Alunos</h1>
+    <table>
+      <tr class="table-head">
+        <td>Nome</td>
+        <td>Email</td>
+        <td>CPF</td>
+        <td>Curso</td>
+      </tr>
+
+      <tr">
+        <td>José Santos</td>
+        <td>zezin@site.net</td>
+        <td>043.660.850-20</td>
+        <td>Programação I</td>
+      </tr>
+
+      <tr">
+        <td>Carlos Testa</td>
+        <td>testador@site.org</td>
+        <td>580.247.730-07</td>
+        <td>Lógica de Programação</td>
+      </tr>
+
+      <tr>
+        <td>Alceu Validando</td>
+        <td>valida@test.bet</td>
+        <td>856.390.070-60</td>
+        <td>Lógica de Programação</td>
+      </tr>
+    </table>
+  </section>
+
+  <footer class="footer">
+    <p>Powered by Mach1 - Pilotando para o futuro!</p>
+  </footer>
+</body>
+</html>
